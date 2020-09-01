@@ -1,0 +1,24 @@
+{
+    "name": "ervin-meng/phpspider",
+    "description" : "PHP多进程爬虫",
+    "type": "application",
+    "keywords": ["spider","process","proxy","parser"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ervin Meng",
+            "email": "ervinmeng@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "ext-redis": ">=2.2.3",
+        "ext-pdo": "*",
+        "guzzlehttp/guzzle": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPSpider\\": "src/"
+        }
+    }
+}
